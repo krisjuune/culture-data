@@ -6,12 +6,12 @@ This toolbox organizes the culture data into a form that is easily manipulated &
 
 1. Data table 
   1. Read Spark data
-  - [] write script
+  - [ ] write script
   1. Create data table 
 1. Monitoring
   1. Organize data 
   1. Plot daily measurements
-  - [] write script (commented in org_data.m)
+  - [ ] write script (commented in org_data.m)
 1. Growth rates
   1. Calculate specific and relative growth rates
   1. Plot growth rate data
