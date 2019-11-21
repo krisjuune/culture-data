@@ -56,7 +56,7 @@ Script calculates the specific and relative growth rates and can be used to plot
 Function to calculate specific growth rates (SGR), their means (mean) and standard deviations (std) between triplicates, given the time period in mid exponential (assumes that measurements were taken every day during this period of time, or this should be at least considered when setting the phase), and a half empty data matrix, containing the times of measurements as the 1st column, and the corresponding Chl values as the 2nd column.
 
 Function returns array with 5 columns as: 
-TM_conc | mean SGR | std of SGR | mean RGR | std of RGR
+TM_conc | mean_SGR | std_of_SGR | mean_RGR | std_of_RGR
 ------- | -------- | ---------- | -------- | ----------
 565 | 0.8643 | 0.0976 | 0.7769 | 0.1034
 ### Plot growth rate data
