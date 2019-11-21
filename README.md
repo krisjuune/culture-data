@@ -59,6 +59,7 @@ Function returns array with 5 columns as:
 TM_conc | mean_SGR | std_of_SGR | mean_RGR | std_of_RGR
 ------- | -------- | ---------- | -------- | ----------
 565 | 0.8643 | 0.0976 | 0.7769 | 0.1034
+
 ### Plot growth rate data
 Script for plotting the relative pooled growth rates of different organisms against Cu/Fe concentrations.
 
