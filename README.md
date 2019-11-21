@@ -57,7 +57,7 @@ Function to calculate specific growth rates (SGR), their means (mean) and standa
 
 Function returns array with 5 columns as: 
 TM_conc | mean_SGR | std_of_SGR | mean_RGR | std_of_RGR
-------- | -------- | ---------- | -------- | ----------
+------- | -------- | ---------- | -------- | ---------- 
 565 | 0.8643 | 0.0976 | 0.7769 | 0.1034
 1025 | 0.9876 | 0.1245 | 1.0000 | 0.1245
 
