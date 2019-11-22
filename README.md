@@ -1,5 +1,5 @@
 # culture-data
-A MATLAB toolbox for culture experiments to do daily monitoring of cells &amp; obtain/plot growth rate data 
+A MATLAB toolbox for culture experiments to monitor cells &amp; obtain/plot growth rate data 
 
 ## Overview
 This toolbox organizes the culture data into a form that is easily manipulated & navigated, it can be used to plot the daily measurements in order to monitor the cultures. The functions also calculate the instantaneous, specific, and relative growth rates and can be used to plor the grwoth rate data. The toolbox is based on experiments in triplicates using the Spark multimode plate reader, which exports data as Excel files. The 'Growth rate' scripts are for numerous subcultures.  
