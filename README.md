@@ -62,6 +62,8 @@ org_data.m
 
 Function to calculate corrected Chl values, log_Chl, and to produce a half empty data matrix, containing the times of easurements as the 1st column,and the corresponding Chl values as the 2nd column, and log_Chl is as the 5th column. The input data matrix has to be in the form as returned by the unction data_table. Other inputs include a string array of dates, and a row vector containing the trace metal concentrations.
 
+Calculations assume exponential growth of the cell number (as approximated by Chlorophyll fluorescence).
+
 In order to observe the growth phase of organisms, plot the 1st column of the data matrix against the 5th column.
 
 ### Plot daily measurements
