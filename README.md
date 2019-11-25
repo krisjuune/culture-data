@@ -12,7 +12,7 @@ The toolbox is based on experiments in triplicates using the Spark multimode pla
 1. Monitoring
   1. Organize data 
   1. Plot daily measurements
-  - [ ] write script (commented in org_data.m)
+  - [x] write script (commented in org_data.m)
 1. Growth rates
   1. Calculate specific and relative growth rates
   1. Plot growth rate data
@@ -60,17 +60,17 @@ Script calculates the corrected Chlorophyl & log(Chlorophyl) values in order to 
 
 org_data.m
 
-Function to calculate corrected Chl values, log_Chl, and to produce a half empty data matrix, containing the times of easurements as the 1st column,and the corresponding Chl values as the 2nd column, and log_Chl is as the 5th column. The input data matrix has to be in the form as returned by the unction data_table. Other inputs include a string array of dates, and a row vector containing the trace metal concentrations.
+Function to calculate corrected Chl values, log_Chl, and to produce a half empty data matrix, containing the times of easurements as the 1st column,and the corresponding Chl values as the 2nd column, and log_Chl is as the 5th column. The input data matrix has to be in the form as returned by the function data_table. Other inputs include a string array of dates, and a row vector containing the trace metal concentrations.
 
 Calculations assume exponential growth of the cell number (as approximated by Chlorophyll fluorescence).
 
-In order to observe the growth phase of organisms, plot the 1st column of the data matrix against the 5th column.
+In order to observe the growth phase of organisms, plot the 1st column of the data matrix against the 5th column looping over the pages.
 
 ### Plot daily measurements
 
 plot_daily.m
 
-Script to be written but exists already in the org_data.m function (is commented out). 
+Plot the daily measurements to obtain time-log(Chl) scatter and errorbar plots.
 
 ## Growth rates
 
