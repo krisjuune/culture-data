@@ -4,7 +4,7 @@
 %4th one containing the measurement values. 
 
 %Function requires a matrix of blank values (daily measurements as 
-%columns), a separate matrix of Chl (daily measurements as columns) values,
+%columns), a separate matrix of Chl values (daily measurements as columns),
 %a vector containing the trace metal concentrations, and a string with the 
 %dates as the input. Function returns the data matrix. 
 
@@ -14,6 +14,9 @@ function TM_data = data_table(TM_conc, dates, blank, TM)
         
     %Conditional statement to test whether the number of input arguments is
     %correct
+    if nargin < 4
+        disp('Not enough input arguments')
+    end
         
         nr_trt = length(TM_conc); %Nr of treatments
         nr_value = nr_trt + 3*length(TM_conc); 
