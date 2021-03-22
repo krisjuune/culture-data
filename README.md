@@ -7,12 +7,10 @@ The toolbox is based on experiments in triplicates using the Spark multimode pla
 
 1. Data table 
   1. Read Spark data
-  - [ ] write scripts
   1. Create data table 
 1. Monitoring
   1. Organize data 
   1. Plot daily measurements
-  - [x] write script (commented in org_data.m)
 1. Growth rates
   1. Calculate specific and relative growth rates
   1. Plot growth rate data
