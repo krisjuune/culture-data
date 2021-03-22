@@ -5,15 +5,9 @@ A MATLAB toolbox for culture experiments to monitor cells &amp; obtain/plot grow
 This toolbox organizes the experimental culture data, obtained from a plate reader, into a form that is easily manipulated & navigated, it can be used to plot the daily measurements in order to monitor the cells. The functions also calculate the instantaneous, specific, and relative growth rates and can be used to plot the grwoth rate data. 
 The toolbox is based on experiments in triplicates using the Spark multimode plate reader, which exports data as Excel files. The 'Growth rates' code is designed for experiments involving numerous (at least two) subcultures. 
 
-1. Data table 
-  1.1. Read Spark data
-  1.1. Create data table 
-1. Monitoring
-  1.1. Organize data 
-  1.1. Plot daily measurements
-1. Growth rates
-  1.1. Calculate specific and relative growth rates
-  1.1. Plot growth rate data
+1. Data table: Read Spark data, Create data table 
+1. Monitoring: Organize data, Plot daily/twice daily measurements
+1. Growth rates: Calculate specific and relative growth rates, Plot growth rate data
   
 ## Data table 
 
